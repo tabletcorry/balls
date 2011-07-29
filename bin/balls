@@ -1,4 +1,18 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+which gsed >/dev/null && sed() {
+  gsed $@
+}
+which greadlink >/dev/null && readlink() {
+  greadlink $@
+}
+which gmkfifo >/dev/null && mkfifo() {
+  gmkfifo $@
+}
+which gcat >/dev/null && cat() {
+  gcat $@
+}
+
 BALLS_LIB=$(dirname $0)/../lib
 BALLS_LIB=$(readlink -f "$BALLS_LIB") # expand the ../
 

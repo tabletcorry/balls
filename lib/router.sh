@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 balls::define_route() {
   local verb=$1; shift

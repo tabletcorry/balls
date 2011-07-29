@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 esh=$(readlink -f $BALLS_LIB/../bin/esh)
 render::esh() {
   local view="$BALLS_VIEWS/$1"

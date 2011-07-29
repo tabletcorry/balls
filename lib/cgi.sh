@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # /var/www/cgi-bin/balls.sh
 [[ -z "$BALLS_CONFIG" ]] && BALLS_CONFIG=$PWD/config.sh
 

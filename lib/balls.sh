@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 [[ -z "$BALLS_LIB" ]] && BALLS_LIB=.
 
 [[ -z "$BALLS_CONF" ]] && BALLS_CONF=./config.sh

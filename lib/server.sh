@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 _hash() {
   echo $$.$(date +'%s.%N').$RANDOM

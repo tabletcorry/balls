@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 BALLS_LIB=$(readlink -f $(dirname $0)/../lib)
 
 shopt -s extglob

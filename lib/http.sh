@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 http::parse_request() {
   http::read req_line
